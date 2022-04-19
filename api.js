@@ -1,8 +1,6 @@
 //const { param } = require("express/lib/request")
 const axios = require("axios").default
 
-//console.log(process.env)
-
 
 function api(){
     return axios.create({
